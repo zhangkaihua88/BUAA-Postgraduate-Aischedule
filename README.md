@@ -3,8 +3,11 @@
   <a href="https://github.com/zhangkaihua88" alt="开发者">
     <img src="https://img.shields.io/badge/开发者-幻华-blue?logo=github">
   </a>
-  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="开发者">
-    <img src="https://img.shields.io/badge/version-3751-blue?logo=github">
+  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
+    <img src="https://img.shields.io/badge/version-Ver.3751-blue?logo=github">
+  </a>
+  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
+    <img src="">
   </a>
 </p>
 
