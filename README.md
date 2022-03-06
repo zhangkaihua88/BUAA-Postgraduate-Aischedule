@@ -1,7 +1,10 @@
 # 小爱课程表 北京航空航天大学-研究生应用管理平台-我的课表
 <p align="center">
-  <a href="https://github.com/MeanZhang" alt="开发者">
+  <a href="https://github.com/zhangkaihua88" alt="开发者">
     <img src="https://img.shields.io/badge/开发者-幻华-blue?logo=github">
+  </a>
+  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="开发者">
+    <img src="https://img.shields.io/badge/version-3751-blue?logo=github">
   </a>
 </p>
 
