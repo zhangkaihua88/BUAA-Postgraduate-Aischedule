@@ -1,4 +1,9 @@
 # 小爱课程表 北京航空航天大学-研究生应用管理平台-我的课表
+<p align="center">
+  <a href="https://github.com/MeanZhang" alt="开发者">
+    <img src="https://img.shields.io/badge/开发者-幻华-blue?logo=github">
+  </a>
+</p>
 
 这是[小爱课程表](https://open-schedule-prod.ai.xiaomi.com/docs/#/help/)北航研究生教务适配项目。
 
