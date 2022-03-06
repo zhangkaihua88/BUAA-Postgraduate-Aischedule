@@ -6,9 +6,12 @@
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
     <img src="https://img.shields.io/badge/version-Ver.3751-blue?logo=github">
   </a>
-  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
-    <img src="">
+  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
+    <img src="https://img.shields.io/badge/state-审核中-yellow?logo=xiaomi">
   </a>
+  <!-- <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
+    <img src="">
+  </a> -->
 </p>
 
 这是小爱课程表北航研究生教务适配项目。
