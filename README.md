@@ -11,7 +11,7 @@
   </a>
 </p>
 
-这是[小爱课程表](https://open-schedule-prod.ai.xiaomi.com/docs/#/help/)北航研究生教务适配项目。
+这是小爱课程表北航研究生教务适配项目。
 
 ## 注意事项
 
