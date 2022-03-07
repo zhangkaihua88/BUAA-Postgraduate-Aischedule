@@ -6,8 +6,8 @@
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
     <img src="https://img.shields.io/badge/version-Ver.3751-blue?logo=github">
   </a>
-  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
-    <img src="https://img.shields.io/badge/state-审核中-yellow?logo=xiaomi">
+  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="status">
+    <img src="https://img.shields.io/badge/status-正式版-success?logo=xiaomi">
   </a>
   <!-- <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
     <img src="">
