@@ -1,12 +1,11 @@
-/**
- * 时间配置函数，此为入口函数，不要改动函数名
- */
  async function scheduleTimer({
     providerRes,
     parserRes
 } = {}) {
-    // 支持异步操作 推荐await写法
+    // 总周数默认为春季18周
     let totalWeek = 18;
+    // 开学时间以2022.02.28开学
+    let startSemester = new Date('2022-02-28');
 
     var sections = [
         { "section": 1, "startTime": "08:00", "endTime": "08:45" },
@@ -26,7 +25,7 @@
     ]
     return {
         totalWeek: totalWeek, // 总周数：[1, 30]之间的整数
-        startSemester: "", // 开学时间：时间戳，13位长度字符串，推荐用代码生成
+        startSemester: startSemester.getTime().toString(), // 开学时间：时间戳，13位长度字符串，推荐用代码生成
         startWithSunday: false, // 是否是周日为起始日，该选项为true时，会开启显示周末选项
         showWeekend: true, // 是否显示周末
         forenoon: 5, // 上午课程节数：[1, 10]之间的整数

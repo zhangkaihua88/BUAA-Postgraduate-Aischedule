@@ -1,11 +1,13 @@
 function scheduleHtmlParser(html) {
-    //除函数名外都可编辑
     //传入的参数为上一步函数获取到的html
     //可使用正则匹配
     //可使用解析dom匹配，工具内置了$，跟jquery使用方法一样，直接用就可以了，参考：https://juejin.im/post/5ea131f76fb9a03c8122d6b9
-    //以下为示例，您可以完全重写或在此基础上更改
     
-    /** 课程信息 */
+    /**
+     * 提取课程周数
+     * @param {string} str 包含周数的字符串，如`1-9,11`、`12,14`
+     * @returns {Array<number>} 包含`str`中所有周数的数组
+     */
     function getWeeks(str) {
         let weeks = [];
         str = str.split("周")[0];
@@ -22,6 +24,7 @@ function scheduleHtmlParser(html) {
         }
         return weeks;
     }
+
     let results = {};
     let lines = $("#jsTbl_01 > tbody").find("tr");
 
@@ -38,10 +41,11 @@ function scheduleHtmlParser(html) {
                 let teacher = lesson[2].children[0].data.slice(0, 49);
                 let classday = day-1;
                 let weeks = lesson[0].children[0].data;
+                // 以classID作为唯一标识符标识课程方便拆分
                 let classID = name + position + teacher + classday + weeks;
                 let sections = l;
                 weeks = getWeeks(weeks);
-
+                // 有则加节数, 无则创建课程
                 if (results.hasOwnProperty(classID)){
                     results[classID].sections.push(sections);
                     
@@ -61,15 +65,12 @@ function scheduleHtmlParser(html) {
         }
     }
     
-    
+    // 返回课程样式
     let courseInfos = [];
     for (var key in results) {
         courseInfos.push(results[key]);
     }
-
-    
     console.log(courseInfos)
-
     return courseInfos
 }
 

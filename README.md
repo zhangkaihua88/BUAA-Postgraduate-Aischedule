@@ -4,25 +4,30 @@
     <img src="https://img.shields.io/badge/开发者-幻华-blue?logo=github">
   </a>
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
-    <img src="https://img.shields.io/badge/version-Ver.3751-blue?logo=github">
+    <img src="https://img.shields.io/badge/version-Ver.3604-blue?logo=github">
   </a>
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="status">
     <img src="https://img.shields.io/badge/status-正式版-success?logo=xiaomi">
   </a>
-  <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
+  <!-- <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
     <img src="https://www.zkhweb.top/API/schedule/usage.SVG">
-  </a>
+  </a> -->
 </p>
 
-这是小爱课程表北航研究生教务适配项目。
+这是小爱课程表北航研究生教务适配项目.
 
 ## 注意事项
 
-- 暂未适配导入开学时间的功能，使用时需要自行设置开学时间。
-- 暂未适配学期总周数，使用时需要自行设置。
+- 默认开学时间为"2022.02.28", 使用时请检查开学时间是否正确.
+- 默认学期总周数为"18", 使用时请检查是否正确.
+- 开学时间和默认学期总周数由于无法从网页提取, 所以初步计划为每学期适配.
 
 ## 更新日志
-- Ver.3571(2022.03.06): 适配研究生小爱课程表
+- Ver.3604(2022.03.08)
+  - 优化信息提醒
+  - 设置开学时间默认为"2022.02.28"
+- Ver.3571(2022.03.06)
+  - 适配研究生小爱课程表
 
 ## 参考
 - [小爱课程表教程](https://open-schedule-prod.ai.xiaomi.com/docs/#/help)
