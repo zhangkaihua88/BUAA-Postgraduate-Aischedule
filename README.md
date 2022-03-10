@@ -22,6 +22,14 @@
 - 默认学期总周数为"18", 使用时请检查是否正确.
 - 开学时间和学期总周数由于无法从网页提取, 所以初步计划为每学期适配.
 
+## 开发说明
+- 使用新版的小爱课程表开发插件`Ver.3.X`进行开发
+- 开发需要完善三个文件中的函数
+  - `scheduleHtmlProvider`
+  - `scheduleHtmlParser`
+  - `scheduleTimer`
+- 工作流程是通过`scheduleHtmlProvider`获取HTML中的信息给`scheduleHtmlParser`进行解析, `scheduleTimer`负责对时间等进行配置
+
 ## 更新日志
 - Ver.3604(2022.03.08)
   - 优化信息提醒
