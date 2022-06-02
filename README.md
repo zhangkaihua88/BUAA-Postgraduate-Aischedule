@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/开发者-幻华-blue?logo=github">
   </a>
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="version">
-    <img src="https://img.shields.io/badge/version-Ver.3604-blue?logo=github">
+    <img src="https://img.shields.io/github/v/tag/zhangkaihua88/BUAA-Postgraduate-Aischedule?label=Ver.&logo=xiaomi">
   </a>
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="status">
     <img src="https://img.shields.io/badge/status-正式版-success?logo=xiaomi">
