@@ -2,10 +2,10 @@
     providerRes,
     parserRes
 } = {}) {
-    // 总周数默认为春季18周
-    let totalWeek = 18;
-    // 开学时间以2022.02.28开学
-    let startSemester = new Date('2022-02-28');
+    // 总周数默认为秋季19周
+    let totalWeek = 19;
+    // 开学时间以2022.08.29开学
+    let startSemester = new Date('2022-08-29');
 
     var sections = [
         { "section": 1, "startTime": "08:00", "endTime": "08:45" },
