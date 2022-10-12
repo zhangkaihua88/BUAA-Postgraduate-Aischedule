@@ -11,7 +11,7 @@
   </a>
   <a href="https://github.com/zhangkaihua88/BUAA-Postgraduate-Aischedule/" alt="使用人数">
     <!-- <img src="https://vercel.api.zkhweb.top/api/MIAISchedule"> -->
-    <img src="https://www.zkhweb.top/VercelAPI/api/MIAISchedule/usage_badge">
+    <img src="https://www.zkhweb.top/VercelAPI/api/MIAISchedule/usage_badge.svg">
   </a>
 </p>
 
