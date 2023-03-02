@@ -46,3 +46,5 @@
 ## 参考
 - [小爱课程表教程](https://open-schedule-prod.ai.xiaomi.com/docs/#/help)
 - [小爱课程表北航本科适配项目](https://github.com/MeanZhang/buaa-ai-schedule)
+
+
