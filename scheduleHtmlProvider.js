@@ -5,6 +5,7 @@ async function scheduleHtmlProvider(
     dom = document
 ) {
     // 使用它们的时候务必带上await，否则没有系统alert的时停效果
+    
     await loadTool("AIScheduleTools");
     await AIScheduleAlert({
         titleText: '开始导入', // 标题内容，字体比较大，不传默认为提示
@@ -12,9 +13,10 @@ async function scheduleHtmlProvider(
         confirmText: '确认', // 确认按钮文字，可不传默认为确认
       });
     try{
+        console.log('start provider');
         let table = dom.querySelector("#jsTbl_01").outerHTML;
         // console.info(table)
-        return table;
+        return dom;
     } catch (error){
         console.error(error)
         await AIScheduleAlert("页面错误, 请打开我的课表")
