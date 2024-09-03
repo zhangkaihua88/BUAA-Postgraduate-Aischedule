@@ -16,7 +16,7 @@ async function scheduleHtmlProvider(
         console.log('start provider');
         let table = dom.querySelector("#jsTbl_01").outerHTML;
         // console.info(table)
-        return dom;
+        return table;
     } catch (error){
         console.error(error)
         await AIScheduleAlert("页面错误, 请打开我的课表")
